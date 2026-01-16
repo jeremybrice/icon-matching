@@ -1,0 +1,90 @@
+{
+  "name": "icon-matching",
+  "version": "1.0.0",
+  "description": "Parlevel Icon Matching Tool - Match legacy icons to Streamline icons and generate PNG assets",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "manifests": "node generate-manifests.js",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.parlevel.iconmatching",
+    "productName": "Parlevel Icon Matching Tool",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "icon-manifests.js",
+      "parlevel_stockapp_android_assets/**/*",
+      "parlevel_stockapp_ios_assets/**/*",
+      "streamline-ultimate-regular/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "build/icon.png",
+      "signAndEditExecutable": false
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["x64", "arm64"]
+        }
+      ],
+      "icon": "build/icon.png",
+      "category": "public.app-category.developer-tools",
+      "identity": null
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "png",
+    "android",
+    "ios",
+    "assets",
+    "electron"
+  ],
+  "author": "Parlevel",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^26.4.0"
+  }
+}

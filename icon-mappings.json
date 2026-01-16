@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-15T20:42:24.486Z",
+  "stats": {
+    "androidTotal": 82,
+    "androidMatched": 3,
+    "iosTotal": 202,
+    "iosMatched": 0
+  },
+  "mappings": {
+    "android": {
+      "checkmark": {
+        "streamlinePath": "streamline-ultimate-regular/Interface Essential/Form Validation/Check Double.svg",
+        "streamlineName": "Check Double",
+        "streamlineFilename": "Check Double.svg",
+        "category": "Interface Essential",
+        "subcategory": "Form Validation",
+        "timestamp": 1768509656314
+      },
+      "ic_fetch_grey": {
+        "streamlinePath": "streamline-ultimate-regular/Internet Networks Servers/Bluetooth/Bluetooth.svg",
+        "streamlineName": "Bluetooth",
+        "streamlineFilename": "Bluetooth.svg",
+        "category": "Internet Networks Servers",
+        "subcategory": "Bluetooth",
+        "timestamp": 1768509672459
+      },
+      "ico_body_machine_serviced": {
+        "streamlinePath": "streamline-ultimate-regular/Business Products/Advertising/Business Card Hand 2.svg",
+        "streamlineName": "Business Card Hand 2",
+        "streamlineFilename": "Business Card Hand 2.svg",
+        "category": "Business Products",
+        "subcategory": "Advertising",
+        "timestamp": 1768509739221
+      }
+    },
+    "ios": {}
+  }
+}

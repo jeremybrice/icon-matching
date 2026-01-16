@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/plGray</color>
+    <color name="colorPrimaryDark">@color/plGray</color>
+    <color name="colorAccent">@color/plYellow</color>
+
+    <color name="toolBarColor">@color/plGray</color>
+    <color name="toolBarTextColor">@color/plYellow</color>
+    <color name="toolBarSubtitleColor">@color/white</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#f90000</color>
+    <color name="black">#FF000000</color>
+    <color name="transparentBlack">#99000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="lightGray">#d7d7d7</color>
+    <color name="superLightGray">#CCCCCC</color>
+
+    <color name="greenDot">#2BC957</color>
+    <color name="plYellow">#fece0a</color>
+    <color name="plLightYellow">#40eecb3f</color>
+    <color name="plBlue">#43a0fa</color>
+    <color name="plLightBlue">#75c6f3</color>
+    <color name="plButtonBlue">#6a8bf7</color>
+    <color name="plGray">#323232</color>
+    <color name="plLightGray">#aaa</color>
+
+    <color name="fetchGray">#686868</color>
+    <color name="fetchDarkGray">#525252</color>
+    <color name="fetchLightGray">#EAEAEA</color>
+    <color name="fetchBackground">#E7E7E7</color>
+    <color name="fetchBlue">#3664FB</color>
+    <color name="fetchGreen">#01AD0B</color>
+    <color name="fetchRed">#EE3F3F</color>
+
+    <color name="bgTicketNumber">#eecd46</color>
+
+    <color name="segmentedColor">#6D8EFC</color>
+
+    <color name="segmentedBorderSelected">@color/segmentedColor</color>
+    <color name="segmentedBorder">@color/segmentedColor</color>
+    <color name="segmentedFillSelected">@color/segmentedColor</color>
+    <color name="segmentedFill">#d0d0d3</color>
+    <color name="segmentedSelectedTextColor">@color/white</color>
+    <color name="segmentedTextColor">@color/segmentedColor</color>
+
+</resources>
