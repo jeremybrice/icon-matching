@@ -1,6 +1,6 @@
-# Parlevel Icon Matching Tool
+# Icon Matching Tool
 
-A desktop application for matching legacy Parlevel icons to modern Streamline SVG icons and generating platform-specific PNG assets for Android and iOS.
+A desktop application for matching legacy icons to modern Streamline SVG icons and generating platform-specific PNG assets for Android and iOS.
 
 ## Features
 
@@ -34,8 +34,8 @@ Generates `.imageset` folders with:
 
 ### Download
 Get the latest installer from the [Releases](../../releases) page:
-- **Windows:** `Parlevel Icon Matching Tool Setup X.X.X.exe`
-- **macOS:** `Parlevel Icon Matching Tool-X.X.X.dmg`
+- **Windows:** `Icon Matching Tool Setup X.X.X.exe`
+- **macOS:** `Icon Matching Tool-X.X.X.dmg`
 
 ### macOS Note
 On first launch, right-click the app and select **Open** to bypass Gatekeeper (the app is not signed with an Apple Developer certificate).
@@ -103,8 +103,8 @@ icon-matching/
 ├── generate-manifests.js   # Manifest generator script
 ├── package.json            # Dependencies and build config
 ├── build/                  # App icons for installers
-├── parlevel_stockapp_android_assets/  # Legacy Android icons
-├── parlevel_stockapp_ios_assets/      # Legacy iOS icons
+├── stockapp_android_assets/  # Legacy Android icons
+├── stockapp_ios_assets/      # Legacy iOS icons
 └── streamline-ultimate-regular/       # Streamline SVG library
 ```
 
@@ -119,5 +119,3 @@ icon-matching/
 ISC
 
 ---
-
-*Built for Parlevel Systems*
